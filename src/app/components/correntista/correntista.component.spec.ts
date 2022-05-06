@@ -1,20 +1,20 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { MovimentacaoListComponent } from './movimentacao-list.component';
+import { CorrentistaComponent } from './correntista.component';
 
-describe('MovimentacaoListComponent', () => {
-  let component: MovimentacaoListComponent;
-  let fixture: ComponentFixture<MovimentacaoListComponent>;
+describe('CorrentistaComponent', () => {
+  let component: CorrentistaComponent;
+  let fixture: ComponentFixture<CorrentistaComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ MovimentacaoListComponent ]
+      declarations: [ CorrentistaComponent ]
     })
     .compileComponents();
   });
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(MovimentacaoListComponent);
+    fixture = TestBed.createComponent(CorrentistaComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });
